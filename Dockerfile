@@ -5,7 +5,8 @@ FROM eclipse-temurin:17-jdk-focal
 WORKDIR /app
 
 # Copy Maven wrapper & pom.xml first (for efficient caching)
-COPY mvnw .mvn/ pom.xml ./
+COPY .mvn/ .mvn
+COPY mvnw pom.xml ./
 RUN ./mvnw dependency:go-offline
 
 # Copy the rest of the application source code
