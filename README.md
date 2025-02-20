@@ -25,15 +25,15 @@ Project hosted at Render: https://easyshop-kjcs.onrender.com/
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
 
 <h3>Prerequisites</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
+Prerequisites to run the project
+
 
 - Java/JDK
 - Git
-- Postgres DB
+- Postgres DB running on port 5432 with the DB "easyshop" created
 - Maven
 
 <h3>Cloning</h3>
@@ -60,7 +60,7 @@ Postman docs: https://documenter.getpostman.com/view/13224453/2sAYdZvEs6
 
 <h2 id="contribute">📫 Contribute</h2>
 
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
+Some guidelines:
 
 1. `git clone https://github.com/manavpatnaik/easyshop.git`
 2. `git checkout -b feature/NAME`
