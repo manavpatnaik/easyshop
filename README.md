@@ -11,6 +11,10 @@
 
 <p align="center">A REST API for an eCommerce application that allows users to shop for products, add them in their cart and place orders.</p>
 
+<br/>
+
+Project hosted at Render: https://easyshop-kjcs.onrender.com/
+
 <h2 id="technologies">💻 Technologies</h2>
 
 - Java/JDK
